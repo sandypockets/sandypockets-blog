@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import Date from "./Date";
+import ReadingTime from "./ReadingTime";
 
 export const HeadPost = ({ meta, isBlogPost }) => (
   <>
@@ -11,10 +13,8 @@ export const HeadPost = ({ meta, isBlogPost }) => (
       {
         isBlogPost? null: <p>{meta.description}</p>
       }
-      <span className="text-md pr-4">{meta.date}</span>
-      <span className="text-md" role='img' aria-label='one coffee'>
-        {meta.readTime + ' min read'}
-      </span>
+      <Date meta={meta} />
+      <ReadingTime meta={meta} />
     </div>
   </>
 )
