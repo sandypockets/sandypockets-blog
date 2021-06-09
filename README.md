@@ -59,4 +59,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus pellent
 
 ## 📸 Screenshots
 
-![https://github.com/sandypockets/sandypockets-blog/blob/main/docs/sandypocketsblog-wip-demo.png?raw=true](https://github.com/sandypockets/sandypockets-blog/blob/main/docs/sandypocketsblog-wip-demo.png?raw=true)
+_Coming soon..._
