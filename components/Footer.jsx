@@ -6,12 +6,16 @@ const footerItems = [
     href: "/"
   },
   {
+    name: "Blog",
+    href: "/blog"
+  },
+  {
     name: "About",
     href: "/about"
   },
   {
-    name: "Blog",
-    href: "/blog"
+    name: "GitHub",
+    href: "/"
   },
 ]
 
