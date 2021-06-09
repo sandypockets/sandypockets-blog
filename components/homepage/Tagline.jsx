@@ -1,3 +1,5 @@
+import SectionSeparator from "../SectionSeparator";
+
 export default function Tagline() {
   return (
     <div className="font-semi-bold sm:font-normal text-xl font-bold mt-10 mb-24">
@@ -6,6 +8,7 @@ export default function Tagline() {
         <br/>
         Opinions are my own.
       </p>
+      <SectionSeparator />
     </div>
   )
 }
