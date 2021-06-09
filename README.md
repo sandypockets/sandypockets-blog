@@ -1,34 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sandypockets Blog
+My personal blog. Made with React, Tailwind CSS, and MDX, bootstrapped with `create-next-app`. 
 
-## Getting Started
+![https://github.com/sandypockets/sandypockets-blog/blob/main/docs/sandypocketsblog-wip-demo.png?raw=true](https://github.com/sandypockets/sandypockets-blog/blob/main/docs/sandypocketsblog-wip-demo.png?raw=true)
 
-First, run the development server:
+## 🛠 Getting Started
+Built and tested using `Node 14`. Dependencies managed with `yarn`
 
-```bash
-npm run dev
-# or
-yarn dev
+1. Clone the project.
+```shell
+git clone git@github.com:sandypockets/sandypockets-blog.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies.
+```shell
+yarn install
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+3. Run the development server.
+```shell
+next dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+4. Navigate to [`http://localhost:3000`](http://localhost:3000) in your browser.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+> Note: Custom error pages (404, and 500) can be viewed by appending the error code to the root URL: [`http://localhost:3000/404`](http://localhost:3000/404)
 
-## Learn More
+## 📦 Dependencies
+* mdx-js/loader `^1.6.22`
+* next/mdx `^10.2.3`
+* next `10.2.3`
+* react `17.0.2`
+* react-dom `17.0.2`
 
-To learn more about Next.js, take a look at the following resources:
+### Dev Dependencies
+* autoprefixer` ^10.2.6`
+* postcss `^8.3.0`
+* tailwindcss `^2.1.4`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Adding a blog post
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+New blog posts should be added to the `pages/blog/` directory as an `.mdx` file. The first few lines of the post must contain the following information, with the values changed appropriately. 
 
-## Deploy on Vercel
+```javascript
+import BlogPost from '../../components/BlogPost'
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+export const meta = {
+  title: 'Hello World',
+  description: 'Small description goes here',
+  date: 'June 09, 2021',
+  readTime: 2,
+  href: '/blog/hello-world'
+}
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+export default ({ children }) => <BlogPost meta={meta}>{children}</BlogPost>;
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas.
+```
+
+## 📸 Screenshots
+
