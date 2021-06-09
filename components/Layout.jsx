@@ -12,7 +12,7 @@ export default function Layout({ children, pageTitle, description }) {
       </Head>
       <main className="min-h-screen w-full flex justify-center bg-black text-white">
         <Nav />
-        <div className="content pt-32 mx-12">{children}</div>
+        <div className="content pt-32 mx-16">{children}</div>
       </main>
     </>
   );
