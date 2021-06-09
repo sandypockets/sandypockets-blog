@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Nav from "./Nav";
+import Footer from "./Footer";
 
 export default function Layout({ children, pageTitle, description }) {
   return (
@@ -14,6 +15,7 @@ export default function Layout({ children, pageTitle, description }) {
         <Nav />
         <div className="content pt-32 mx-16">{children}</div>
       </main>
+      <Footer />
     </>
   );
 }
