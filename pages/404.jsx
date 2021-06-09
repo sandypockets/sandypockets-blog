@@ -1,6 +1,6 @@
 import Highlight from "../components/Highlight";
 
-export default function PageNotFound() {
+export default function Custom404() {
   return (
     <div className="flex flex-col m-4">
       <Highlight propsClass="text-9xl text-center" content="404" />
