@@ -37,7 +37,7 @@ next dev
 * postcss `^8.3.0`
 * tailwindcss `^2.1.4`
 
-## Adding a blog post
+## ✏️ Adding a blog post
 
 New blog posts should be added to the `pages/blog/` directory as an `.mdx` file. The first few lines of the post must contain the following information, with the values changed appropriately. 
 
@@ -59,3 +59,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus pellent
 
 ## 📸 Screenshots
 
+![https://github.com/sandypockets/sandypockets-blog/blob/main/docs/sandypocketsblog-wip-demo.png?raw=true](https://github.com/sandypockets/sandypockets-blog/blob/main/docs/sandypocketsblog-wip-demo.png?raw=true)
