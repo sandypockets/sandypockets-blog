@@ -1,5 +1,5 @@
 # Sandypockets Blog
-My personal blog. Made with React, Tailwind CSS, and MDX, bootstrapped with `create-next-app`. 
+My personal blog. Made with Next.js, using React, Tailwind CSS, and MDX. 
 
 ![https://github.com/sandypockets/sandypockets-blog/blob/main/docs/sandypocketsblog-wip-demo.png?raw=true](https://github.com/sandypockets/sandypockets-blog/blob/main/docs/sandypocketsblog-wip-demo.png?raw=true)
 
