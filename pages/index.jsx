@@ -1,4 +1,4 @@
-import { Post } from "../components/Post";
+import { Post } from "../components/homepage/Post";
 import { posts } from "../getAllPosts";
 import Heading from "../components/homepage/Heading";
 import Tagline from "../components/homepage/Tagline";

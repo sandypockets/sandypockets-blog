@@ -1,18 +1,13 @@
-import Link from 'next/link'
 import Date from "./Date";
 import ReadingTime from "./ReadingTime";
+import BlogTitle from "./BlogTitle";
+import Description from "./Description";
 
 export const HeadPost = ({ meta, isBlogPost }) => (
   <>
-  <h1 className="text-4xl">
-    <Link href={meta.href}>
-      <a>{meta.title}</a>
-    </Link>
-  </h1>
-    <div className='details'>
-      {
-        isBlogPost? null: <p>{meta.description}</p>
-      }
+    <BlogTitle propsClass="text-4xl" meta={meta} />
+    <div>
+      <Description isBlogPost={isBlogPost} meta={meta} />
       <Date meta={meta} />
       <ReadingTime meta={meta} />
     </div>

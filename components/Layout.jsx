@@ -7,7 +7,7 @@ export default function Layout({ children, pageTitle, description }) {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
-        <meta name="Description" content={description}></meta>
+        <meta name="Description" content={description} />
         <title>{pageTitle}</title>
       </Head>
       <main className="min-h-screen w-full flex justify-center bg-black text-white">
