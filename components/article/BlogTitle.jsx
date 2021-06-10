@@ -34,9 +34,6 @@ export default function BlogTitle(props) {
           </Link>
         </h1>
       }
-
-
-
     </div>
   )
 }
