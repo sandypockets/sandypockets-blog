@@ -22,7 +22,7 @@ import TailwindLogo from "./TailwindLogo";
 
 export default function Logos() {
   return (
-    <div className="flex justify-center flex-wrap m-24">
+    <div className="flex justify-center flex-wrap mx-36 mt-20 mb-32">
       <BootstrapLogo />
       <ChaiLogo />
       <CssLogo />
