@@ -1,6 +1,6 @@
 import { Post } from "../components/hero/Post";
 import { posts } from "../getAllPosts";
-import Heading from "../components/hero/Heading";
+import HeroText from "../components/hero/HeroText";
 import Tagline from "../components/hero/Tagline";
 import SectionSeparator from "../components/utility/SectionSeparator";
 
@@ -8,7 +8,7 @@ export default function IndexPage() {
   return (
     <div>
       <div>
-        <Heading />
+        <HeroText />
         <Tagline />
       </div>
       <div className="mb-24">

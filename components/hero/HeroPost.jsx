@@ -3,7 +3,7 @@ import ReadingTime from "../article/ReadingTime";
 import BlogTitle from "./BlogTitle";
 import Description from "../article/Description";
 
-export const HeadPost = ({ meta, isBlogPost }) => (
+export const HeroPost = ({ meta, isBlogPost }) => (
   <>
     <BlogTitle propsClass="text-4xl font-mono" meta={meta} />
     <div className="font-mono">

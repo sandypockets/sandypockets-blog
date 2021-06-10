@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { HeadPost } from './HeadPost'
+import { HeroPost } from './HeroPost'
 
 export const Post = ({ post }) => {
   const {
@@ -8,7 +8,7 @@ export const Post = ({ post }) => {
 
   return (
     <article className="mb-6">
-      <HeadPost meta={meta} />
+      <HeroPost meta={meta} />
     </article>
   )
 }
