@@ -2,6 +2,6 @@ a.nav-hover:hover {
   color: white;
   text-shadow:
           0 0 2px white,
-          0 0 10px rgb(0, 255, 200),
-          0 0 30px rgb(0, 255, 200)
+          0 0 10px #5b21b6,
+          0 0 30px #5b21b6
 }
