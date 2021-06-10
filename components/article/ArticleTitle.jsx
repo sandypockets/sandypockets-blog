@@ -6,9 +6,7 @@ export default function ArticleTitle(props) {
       <h1
         className={props.propsClass}
       >
-        <Link href={props.meta.href}>
-          <a>{props.meta.title}</a>
-        </Link>
+        {props.meta.title}
       </h1>
     </div>
   )
