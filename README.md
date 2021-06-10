@@ -39,7 +39,7 @@ next dev
 
 ## ✏️ Adding a blog post
 
-New blog posts should be added to the `pages/blog/` directory as an `.mdx` file. The first few lines of the post must contain the following information, with the values changed appropriately. 
+New blog posts should be added to the `pages/blog/` directory as an `.mdx` file. The structure of a post is as follows:
 
 ```javascript
 import BlogPost from '../../components/BlogPost'
@@ -54,8 +54,12 @@ export const meta = {
 
 export default ({ children }) => <BlogPost meta={meta}>{children}</BlogPost>;
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas.
+<div className="flex flex-col">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
+</div>
 ```
+
+Add content (including React components) between the `<div>` tags. 
 
 ## 📸 Screenshots
 
