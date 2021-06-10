@@ -1,5 +1,4 @@
 import Link from "next/link";
-import SectionSeparator from "../utility/SectionSeparator";
 
 const footerItems = [
   {
@@ -16,7 +15,7 @@ const footerItems = [
   },
   {
     name: "GitHub",
-    href: "/"
+    href: "https://github.com/sandypockets"
   },
 ]
 
@@ -25,7 +24,7 @@ export default function Footer() {
     <footer className="w-full flex justify-center bg-black text-white pb-14 pt-2 font-mono">
       {footerItems.map((item) => (
         <Link key={item.name} href={item.href}>
-          <a className="mr-11 nav-hover">{item.name}</a>
+          <a className="mx-5 nav-hover">{item.name}</a>
         </Link>
       ))}
     </footer>
