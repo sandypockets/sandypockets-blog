@@ -13,7 +13,7 @@ const navItems = [
 
 export default function Nav() {
   return (
-    <div className="flex justify-between mb-5 w-full fixed sm:w-11/12 md:w-11/12 lg:w-11/12 sm:py-6 md:py-6 lg:py-6">
+    <div className="flex justify-between mb-5 w-full fixed sm:w-11/12 md:w-11/12 lg:w-11/12 sm:py-6 md:py-6 lg:py-6 font-mono">
 
       <Link href='/'>
         <a className="flex justify-start nav-hover">SANDYPOCKETS</a>

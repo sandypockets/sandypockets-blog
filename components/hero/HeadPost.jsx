@@ -5,8 +5,8 @@ import Description from "../article/Description";
 
 export const HeadPost = ({ meta, isBlogPost }) => (
   <>
-    <BlogTitle propsClass="text-4xl" meta={meta} />
-    <div>
+    <BlogTitle propsClass="text-4xl font-mono" meta={meta} />
+    <div className="font-mono">
       <Description isBlogPost={isBlogPost} meta={meta} />
       <Date meta={meta} />
       <ReadingTime meta={meta} />
