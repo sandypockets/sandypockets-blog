@@ -1,6 +1,6 @@
 import Date from "../article/Date";
 import ReadingTime from "../article/ReadingTime";
-import BlogTitle from "../article/BlogTitle";
+import BlogTitle from "./BlogTitle";
 import Description from "../article/Description";
 
 export const HeadPost = ({ meta, isBlogPost }) => (
