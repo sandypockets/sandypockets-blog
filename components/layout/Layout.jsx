@@ -11,11 +11,13 @@ export default function Layout({ children, pageTitle, description }) {
         <meta name="Description" content={description} />
         <title>{pageTitle}</title>
       </Head>
-      <main className="min-h-screen w-full flex justify-center bg-black text-white">
-        <Nav />
-        <div className="content pt-32 mx-16">{children}</div>
-      </main>
-      <Footer />
+      <div className="min-h-screen">
+        <main className="w-full min-h-5/6 flex justify-center bg-black text-white">
+          <Nav />
+          <div className="content pt-32 mx-16">{children}</div>
+        </main>
+        <Footer />
+      </div>
     </>
   );
 }
