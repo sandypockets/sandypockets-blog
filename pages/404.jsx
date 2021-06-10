@@ -1,4 +1,4 @@
-import Highlight from "../components/Highlight";
+import Highlight from "../components/utility/Highlight";
 
 export default function Custom404() {
   return (

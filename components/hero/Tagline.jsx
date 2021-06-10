@@ -1,4 +1,4 @@
-import SectionSeparator from "../SectionSeparator";
+import SectionSeparator from "../utility/SectionSeparator";
 
 export default function Tagline() {
   return (

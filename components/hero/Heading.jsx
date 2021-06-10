@@ -1,4 +1,4 @@
-import Highlight from "../Highlight";
+import Highlight from "../utility/Highlight";
 
 export default function Heading() {
   return (
