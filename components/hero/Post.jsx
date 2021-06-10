@@ -3,7 +3,6 @@ import { HeadPost } from './HeadPost'
 
 export const Post = ({ post }) => {
   const {
-    link,
     module: { meta },
   } = post
 
