@@ -9,9 +9,6 @@ export const Post = ({ post }) => {
   return (
     <article className="mb-6">
       <HeadPost meta={meta} />
-      <Link href={meta.href}>
-        <a>Read post →</a>
-      </Link>
     </article>
   )
 }
