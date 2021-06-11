@@ -19,30 +19,51 @@ import MochaLogo from "./MochaLogo";
 import SassLogo from "./SassLogo";
 import StorybookLogo from "./StorybookLogo";
 import TailwindLogo from "./TailwindLogo";
+import D3Logo from "./D3Logo";
+import JamstackLogo from "./JamstackLogo";
+import GitLogo from "./GitLogo";
+import SeleniumLogo from "./SeleniumLogo";
+import TestingLibrary from "./TestingLibrary";
 
 export default function Logos() {
   return (
-    <div className="flex justify-center flex-wrap mx-36 mt-20 mb-32">
-      <BootstrapLogo />
-      <ChaiLogo />
-      <CssLogo />
-      <CypressLogo />
-      <ExpressLogo />
-      <HtmlLogo />
-      <JestLogo />
-      <JQueryLogo />
-      <MarkdownLogo />
-      <NextJsLogo />
-      <MochaLogo />
+    <div className="flex justify-center flex-wrap mx-36 mb-12">
+
+
       <NodeLogo />
-      <PostgresqlLogo />
-      <RailsLogo />
       <ReactLogo />
+      <ExpressLogo />
       <RubyLogo />
+      <RailsLogo />
+
+      <HtmlLogo />
+      <JsLogo />
+      <CssLogo />
       <SassLogo />
-      <SqlLiteLogo />
-      <StorybookLogo />
       <TailwindLogo />
+      <BootstrapLogo />
+
+      <MarkdownLogo />
+
+      <GitLogo />
+      <JQueryLogo />
+      <D3Logo />
+      <NextJsLogo />
+      <JamstackLogo />
+
+
+      <PostgresqlLogo />
+      <SqlLiteLogo />
+
+      <StorybookLogo />
+      <JestLogo />
+      <TestingLibrary />
+      <MochaLogo />
+      <ChaiLogo />
+      <CypressLogo />
+      <SeleniumLogo />
+
+
     </div>
   )
 }

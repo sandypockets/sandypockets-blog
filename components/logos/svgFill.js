@@ -1,0 +1,1 @@
+export const svgFill = "#1252bf";
