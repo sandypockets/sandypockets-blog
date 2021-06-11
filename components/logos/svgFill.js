@@ -1,1 +1,1 @@
-export const svgFill = "#1252bf";
+export const svgFill = "#989898";
