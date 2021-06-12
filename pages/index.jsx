@@ -11,7 +11,7 @@ export default function IndexPage() {
         <HeroText />
         <Tagline />
       </div>
-      <div className="mb-24">
+      <div className="mb-12 sm:mb-24">
         {posts.map((post) => (
           <Post key={post.link} post={post} />
         ))}
