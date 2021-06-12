@@ -8,14 +8,11 @@ export default function About() {
       <div className="text-8xl leading-20 font-bold text-gray-100">
         <p>I'm a serial learner, dedicated to a <Highlight content="safer"/>, <Highlight content="open"/>, and <Highlight content="inclusive"/> internet.</p>
       </div>
-
       <h2 className="flex justify-center mt-24 mb-3 text-3xl text-gray-400">My Tech Stack</h2>
       <div>
         <Logos />
       </div>
-
       <SectionSeparator />
-
     </div>
   )
 }
