@@ -14,7 +14,7 @@ export default function Layout({ children, pageTitle, description }) {
       <div className="min-h-screen">
         <main className="w-full min-h-5/6 flex justify-center bg-black text-white">
           <Nav />
-          <div className="content pt-32 mx-6 sm:mx-16">{children}</div>
+          <div className="content pt-32 mx-7 sm:mx-16">{children}</div>
         </main>
         <Footer />
       </div>
