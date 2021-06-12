@@ -1,15 +1,13 @@
 import Logos from "../components/logos/Logos";
 import SectionSeparator from "../components/utility/SectionSeparator";
+import Highlight from "../components/utility/Highlight";
 
 export default function About() {
   return (
-    <div className="my-11 mx-48">
-      <h1 className="flex justify-center h-auto pb-11 text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-600">
-        About
-      </h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+    <div className="my-11 mx-40">
+      <div className="text-8xl leading-20 font-bold text-gray-100">
+        <p>I'm a serial learner, dedicated to a <Highlight content="safer"/>, <Highlight content="open"/>, and <Highlight content="inclusive"/> internet.</p>
+      </div>
 
       <h2 className="flex justify-center mt-24 mb-3 text-3xl text-gray-400">My Tech Stack</h2>
       <div>
