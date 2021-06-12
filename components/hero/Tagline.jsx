@@ -2,11 +2,13 @@ import SectionSeparator from "../utility/SectionSeparator";
 
 export default function Tagline() {
   return (
-    <div className="font-semi-bold font-mono sm:font-normal text-xl font-bold mt-10 mb-24">
+    <div className="font-mono font-normal text-m font-semi-bold sm:text-2xl md:text-3xl lg:text-4xl mt-10 sm:mb-24">
       <p>
         When I'm not building things, I'm writing about programming.{' '}
-        <br/>
-        Opinions are my own.
+        <p className="text-s sm:text-xl md:text-xl lg:text-2xl">
+          <br/>
+          Opinions are my own.
+        </p>
       </p>
       <SectionSeparator />
     </div>
