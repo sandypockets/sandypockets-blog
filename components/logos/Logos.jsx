@@ -27,8 +27,7 @@ import TestingLibrary from "./TestingLibrary";
 
 export default function Logos() {
   return (
-    <div className="flex justify-center flex-wrap mx-36 mb-12">
-
+    <div className="flex justify-center flex-wrap lg:mx-36 mb-12">
 
       <NodeLogo />
       <ReactLogo />
@@ -51,7 +50,6 @@ export default function Logos() {
       <NextJsLogo />
       <JamstackLogo />
 
-
       <PostgresqlLogo />
       <SqlLiteLogo />
 
@@ -62,7 +60,6 @@ export default function Logos() {
       <ChaiLogo />
       <CypressLogo />
       <SeleniumLogo />
-
 
     </div>
   )
