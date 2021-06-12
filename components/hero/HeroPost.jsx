@@ -5,7 +5,7 @@ import Description from "../article/Description";
 
 export const HeroPost = ({ meta, isBlogPost }) => (
   <>
-    <BlogTitle propsClass="text-4xl font-mono" meta={meta} />
+    <BlogTitle propsClass="font-mono text-2xl sm:text-4xl md:text-5xl" meta={meta} />
     <div className="font-mono">
       <Description isBlogPost={isBlogPost} meta={meta} />
       <Date meta={meta} />
