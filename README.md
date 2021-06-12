@@ -1,7 +1,7 @@
 # Sandypockets Blog
 My personal blog. Made with Next.js, using React, Tailwind CSS, and MDX. 
 
-![https://github.com/sandypockets/sandypockets-blog/blob/main/docs/sandypocketsblogdemo2.png?raw=true](https://github.com/sandypockets/sandypockets-blog/blob/main/docs/sandypocketsblogdemo2.png?raw=true)
+![https://github.com/sandypockets/sandypockets-blog/blob/main/docs/blogdemo3.png?raw=true](https://github.com/sandypockets/sandypockets-blog/blob/main/docs/blogdemo3.png?raw=true)
 
 ## 🛠 Getting Started
 Built and tested using `Node 14`. Dependencies managed with `yarn`
