@@ -5,7 +5,7 @@ import '../styles/globals.css'
 
 export default function App({ Component, pageProps }) {
   return (
-    <Layout pageTitle="Sandypockets Blog" description="Developer Blog">
+    <Layout pageTitle="Sandypockets" description="Developer Blog">
       <Component {...pageProps} />
     </Layout>
   );
