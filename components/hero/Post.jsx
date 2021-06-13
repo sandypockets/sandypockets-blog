@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { HeroPost } from './HeroPost'
 
 export const Post = ({ post }) => {
