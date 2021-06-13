@@ -66,7 +66,16 @@ export default ({ children }) => <BlogPost meta={meta}>{children}</BlogPost>;
 </div>
 ```
 
-Add content (including React components) between the `<div>` tags. 
+Add content (including React components) between the `<div>` tags.
+
+## 🚀 Performance
+### Results from [`Google Page Speed Insights`](https://developers.google.com/speed/pagespeed/insights/)
+
+![https://github.com/sandypockets/sandypockets-blog/blob/main/docs/blog-performance-lighthouse.png?raw=true](https://github.com/sandypockets/sandypockets-blog/blob/main/docs/blog-performance-lighthouse.png?raw=true)
+
+### Results from [`web.dev/measure`](https://web.dev/measure)
+
+![https://github.com/sandypockets/sandypockets-blog/blob/main/docs/blog-performance.png?raw=true](https://github.com/sandypockets/sandypockets-blog/blob/main/docs/blog-performance.png?raw=true)
 
 ## 📸 Screenshots
 
