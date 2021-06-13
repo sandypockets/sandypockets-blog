@@ -1,7 +1,7 @@
 # Sandypockets Blog
 My personal blog. Made with Next.js, using React, Tailwind CSS, and MDX. 
 
-![https://github.com/sandypockets/sandypockets-blog/blob/main/docs/blogdemo3.png?raw=true](https://github.com/sandypockets/sandypockets-blog/blob/main/docs/blogdemo3.png?raw=true)
+![https://github.com/sandypockets/sandypockets-blog/blob/main/docs/blog-homepage.png?raw=true](https://github.com/sandypockets/sandypockets-blog/blob/main/docs/blog-homepage.png?raw=true)
 
 ## 🛠 Getting Started
 Built and tested using `Node 14`. Dependencies managed with `yarn`
@@ -69,4 +69,10 @@ Add content (including React components) between the `<div>` tags.
 
 ## 📸 Screenshots
 
-_Coming soon..._
+![https://github.com/sandypockets/sandypockets-blog/blob/main/docs/blog-homepage.png?raw=true](https://github.com/sandypockets/sandypockets-blog/blob/main/docs/blog-homepage.png?raw=true)
+
+![https://github.com/sandypockets/sandypockets-blog/blob/main/docs/blog-about.png?raw=true](https://github.com/sandypockets/sandypockets-blog/blob/main/docs/blog-about.png?raw=true)
+
+![https://github.com/sandypockets/sandypockets-blog/blob/main/docs/blog-blog.png?raw=true](https://github.com/sandypockets/sandypockets-blog/blob/main/docs/blog-blog.png?raw=true)
+
+![https://github.com/sandypockets/sandypockets-blog/blob/main/docs/blog-article.png?raw=true](https://github.com/sandypockets/sandypockets-blog/blob/main/docs/blog-article.png?raw=true)
