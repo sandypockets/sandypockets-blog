@@ -1,4 +1,3 @@
-// import '../styles/globals.css'
 import Layout from "../components/layout/Layout";
 import 'tailwindcss/tailwind.css'
 import '../styles/globals.css'
