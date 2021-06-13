@@ -37,6 +37,12 @@ next dev
 * postcss `^8.3.0`
 * tailwindcss `^2.1.4`
 
+## 🧭 Roadmap
+A list of to-dos.
+
+* Add MDX components. The MDX pages are rendering properly, but at this time they must be styled with HTML and CSS, which is less than ideal. The MDX files do accept React components, but will not pick up on Markdown syntax until MDX components get set up.
+* Projects page. Each project will be deployed to its own subdomain of this site. 
+
 ## ✏️ Adding a blog post
 
 New blog posts should be added to the `pages/blog/` directory as an `.mdx` file. The structure of a post is as follows:
