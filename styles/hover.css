@@ -1,7 +1,11 @@
 a.nav-hover:hover {
-  color: white;
-  text-shadow:
-          0 0 2px white,
-          0 0 10px #5b21b6,
-          0 0 30px #5b21b6
+    color: #34d399;
 }
+
+/*a.nav-hover:hover {*/
+/*  color: white;*/
+/*  text-shadow:*/
+/*          0 0 2px white,*/
+/*          0 0 10px #5b21b6,*/
+/*          0 0 30px #5b21b6*/
+/*}*/

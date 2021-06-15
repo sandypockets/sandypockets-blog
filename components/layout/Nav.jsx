@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Toggle from "../utility/Toggle";
 
 const navItems = [
   {
@@ -11,9 +12,9 @@ const navItems = [
   },
 ]
 
-export default function Nav() {
+export default function Nav({ darkMode, setDarkMode }) {
   return (
-    <div className="flex justify-between w-full fixed w-11/12 pl-8 py-6 font-mono">
+    <div className="flex justify-between w-full fixed w-11/12 px-8 py-6 font-mono">
 
       <Link href='/'>
         <a className="flex justify-start nav-hover">SANDYPOCKETS</a>
@@ -26,6 +27,8 @@ export default function Nav() {
             <a className="mr-11 nav-hover">{item.name}</a>
           </Link>
         ))}
+
+        <Toggle darkMode={darkMode} setDarkMode={setDarkMode} />
 
       </div>
 

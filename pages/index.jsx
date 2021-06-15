@@ -2,11 +2,11 @@ import { Post } from "../components/hero/Post";
 import { posts } from "../getAllPosts";
 import HeroText from "../components/hero/HeroText";
 import Tagline from "../components/hero/Tagline";
-import SectionSeparator from "../components/utility/SectionSeparator";
+// import SectionSeparator from "../components/utility/SectionSeparator";
 
 export default function IndexPage() {
   return (
-    <div>
+    <div className="h-screen mb-36">
       <div>
         <HeroText />
         <Tagline />
@@ -16,7 +16,7 @@ export default function IndexPage() {
           <Post key={post.link} post={post} />
         ))}
       </div>
-      <SectionSeparator />
+      {/*<SectionSeparator />*/}
     </div>
   );
 }
