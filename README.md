@@ -43,6 +43,7 @@ A list of to-dos.
 * Add MDX components. The MDX pages are rendering properly, but at this time they must be styled with HTML and CSS, which is less than ideal. The MDX files do accept React components, but will not pick up on Markdown syntax until MDX components get set up.
 * Projects page. Each project will be deployed to its own subdomain of this site. 
 * Spruce up 404 and 500 pages
+* Add popover menu for mobile views
 
 ## ✏️ Adding a blog post
 
