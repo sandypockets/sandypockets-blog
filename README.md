@@ -61,13 +61,12 @@ export const meta = {
 }
 
 export default ({ children }) => <BlogPost meta={meta}>{children}</BlogPost>;
-
-<div className="flex flex-col">
+  
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
-</div>
+
 ```
 
-Add content (including React components) between the `<div>` tags.
+Add markdown content (including React components) below the `export default ({ children }) => <BlogPost meta={meta}>{children}</BlogPost>` line.
 
 ## 🚀 Performance
 ### Results from [`Google Page Speed Insights`](https://developers.google.com/speed/pagespeed/insights/)
