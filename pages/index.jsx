@@ -5,8 +5,8 @@ import Tagline from "../components/hero/Tagline";
 
 export default function IndexPage() {
   return (
-    <div className="h-screen sm:mb-20 md:mb-36 lg:mb-48">
-      <div className='mt-16 sm:mt-20 md:mt-24 lg:mt-30'>
+    <div className="pt-16">
+      <div className='sm:mt-20 md:mt-24 lg:mt-30'>
         <HeroText />
         <Tagline />
       </div>

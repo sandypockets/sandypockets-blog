@@ -10,7 +10,7 @@ export default function Tagline() {
           Opinions are my own.
         </p>
       </p>
-      <SectionSeparator className='mb-8 mt-12' />
+      <SectionSeparator className='mb-8 mt-16' />
     </div>
   )
 }

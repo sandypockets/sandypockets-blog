@@ -5,7 +5,7 @@ import secondaryTextColour from '../pages/_app'
 
 export default function About({ secondaryTextColour }) {
   return (
-    <div className="sm:my-11 sm:mx-22 md:mx-8 lg:mx-14 xl:mx-32 2xl:max-w-7xl">
+    <div className="pt-48 sm:pt-24 sm:my-11 sm:mx-22 md:mx-8 lg:mx-14 xl:mx-32 2xl:max-w-7xl">
       <div className={secondaryTextColour + " text-3xl pl-6 sm:text-6xl sm:leading-20 sm:pl-3 sm:mb-20 md:text-7xl md:pl-5 lg:pl-16 xl:text-8xl 2xl:text-9xl xl:pl-14 2xl:pl-16 font-bold"}>
         <p>I'm a serial learner,{' '}
           <br/>

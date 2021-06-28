@@ -13,7 +13,7 @@ export default function Layout({ children, pageTitle, description, backgroundCol
         <title>{pageTitle}</title>
       </Head>
       <div className="h-screen">
-        <main className={backgroundColour + " " + textColour + " w-full min-h-full flex justify-center"}>
+        <main className={backgroundColour + " " + textColour + " w-full flex justify-center"}>
           <Nav darkMode={darkMode} setDarkMode={setDarkMode} />
           <div className="content mx-7 sm:mx-16">{children}</div>
         </main>
