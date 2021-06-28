@@ -1,3 +1,3 @@
-export default function SectionSeparator() {
-  return <hr className="border-accent-2 mt-10 mb-12" />
+export default function SectionSeparator(props) {
+  return <hr className={`border-accent-2 mb-12 ${props.className}`} />
 }

@@ -15,7 +15,7 @@ export default function About({ secondaryTextColour }) {
       <div>
         <Logos />
       </div>
-      <SectionSeparator />
+      {/*<SectionSeparator />*/}
     </div>
   )
 }
