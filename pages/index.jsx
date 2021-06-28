@@ -11,7 +11,7 @@ export default function IndexPage() {
         <Tagline />
       </div>
       <div className="mb-12 sm:mb-24">
-        {posts.reverse().map((post) => (
+        {posts.map((post) => (
           <Post key={post.link} post={post} />
         ))}
       </div>
