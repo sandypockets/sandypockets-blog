@@ -12,11 +12,13 @@ export default function Layout({ children, pageTitle, description, backgroundCol
         <title>{pageTitle}</title>
       </Head>
       <div className={backgroundColour + " " + textColour + " h-screen"}>
-        <main className={backgroundColour + " " + textColour + " w-full flex justify-center"}>
-          <Nav darkMode={darkMode} setDarkMode={setDarkMode} />
-          <div className="content mx-7 sm:mx-16">{children}</div>
-        </main>
-        <Footer backgroundColour={backgroundColour} textColour={textColour} secondaryTextColour={secondaryTextColour} />
+        <div className='flex flex-col justify-between h-screen'>
+          <main className={backgroundColour + " " + textColour + " w-full flex justify-center"}>
+            <Nav darkMode={darkMode} setDarkMode={setDarkMode} />
+            <div className="content mx-7 sm:mx-16">{children}</div>
+          </main>
+          <Footer backgroundColour={backgroundColour} textColour={textColour} secondaryTextColour={secondaryTextColour} />
+        </div>
       </div>
     </>
   );
