@@ -27,7 +27,7 @@ import TestingLibrary from "./TestingLibrary";
 
 export default function Logos() {
   return (
-    <div className="flex justify-center flex-wrap pb-20 mini:pb-0 lg:mx-18 xl:mx-24 2xl:mx-60">
+    <div className="flex justify-center flex-wrap  mini:pb-0 lg:mx-18 xl:mx-24 2xl:mx-60">
 
       <NodeLogo />
       <ReactLogo />
