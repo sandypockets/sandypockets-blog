@@ -4,8 +4,6 @@ import HeroText from "../components/hero/HeroText";
 import Tagline from "../components/hero/Tagline";
 
 export default function IndexPage() {
-
-  console.log(posts)
   return (
     <div className="pt-16">
       <div className='sm:mt-20 md:mt-24 lg:mt-30'>
